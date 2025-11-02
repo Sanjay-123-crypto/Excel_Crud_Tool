@@ -1,0 +1,92 @@
+# =====================================
+# Python / FastAPI / Streamlit Project
+# =====================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and debug
+*.log
+logs/
+debug.log
+
+# Compiled binaries
+*.so
+*.dll
+*.exe
+*.pyd
+
+# Test / coverage files
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+.pytest_cache/
+.coverage
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Data files
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.xlsm
+data/*.json
+
+# Backups / temporary
+*.bak
+*.tmp
+~$*
+
+# Reports / exports
+*.pdf
+*.csv
+*.zip
+exports/
+output/
+results/
+downloads/
+
+# Misc
+*.env
+.env
+.env.local
+.env.*
+config.json
+credentials.json
+token.json
+
+# Ignore local settings
+settings_local.py
+local_config.py
